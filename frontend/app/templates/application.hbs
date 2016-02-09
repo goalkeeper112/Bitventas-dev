@@ -1,0 +1,12 @@
+{{#mdl-nav title='Bitventas'
+  fixedHeader=true
+  closeDrawerOnItemClick=true}}
+  {{mdl-nav-item name='Inicio'   route='application'}}
+  {{mdl-nav-item name='Product'      route='products'}}
+  {{mdl-nav-item name='Services'       route='services'}}
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col white-text">
+      {{outlet}}
+    </div>
+  </div>
+{{/mdl-nav}}

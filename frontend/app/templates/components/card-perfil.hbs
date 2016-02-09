@@ -1,0 +1,13 @@
+{{#mdl-card title={{username}} }}
+  <div class="mdl-card__supporting-text">
+    <img src={{photo_perfil}} alt="" class="img-card" />
+    <span>{{first_name}} {{last_name}}</span>
+      <p>{{country}}</p>
+  </div>
+  {{#mdl-card-actions}}
+    {{mdl-button text='Ver'}}
+  {{/mdl-card-actions}}
+  {{#mdl-card-buttons}}
+    {{mdl-button icon='share'}}
+  {{/mdl-card-buttons}}
+{{/mdl-card}}
